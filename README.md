@@ -1,19 +1,5 @@
-# js-learning
+# Learning
 When sh*t happens 🐒
-
-# csse
-Computer Science and Software Engineering
-
-# Rust lang learning repo 🚂
-
-I will learn rust programming language in this repo. Also, I will try to make an education plan.
-
-## Todo's:
-- [ ] Write an algorithm implementation
-- [ ] Write data structure implementation
-
-# ads
-Algorithms and data structures
 
 ## Алгоритмы
 - Наибольший общий делитель
@@ -27,15 +13,12 @@ Algorithms and data structures
 - Возведение в степень по модулю
 - Тест простоты Миллера-Рабина
 
-
 ### Сортировки
 - Подсчётом
 - Быстрая
 
-
 ### Шифрование
 - AES-256 OFB
-
 
 ## Структуры данных
 ### Кучи
@@ -57,11 +40,3 @@ Algorithms and data structures
 ### Связный список (WIP)
 
 ### Бинарное дерево (поиска) (WIP)
-
-
-## Запуск в JVM
-
-```
-kotlinc Source.kt -include-runtime -d Destination.jar
-java -jar Destination.jar
-```
