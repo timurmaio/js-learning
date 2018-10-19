@@ -1,0 +1,30 @@
+td {
+    vertical-align: top;
+    white-space: normal;
+}
+
+td > div {
+    max-width: 500px;
+}
+
+.toolbar-actions {
+    display: flex;
+    /*justify-content: center;*/
+}
+
+.form-control {
+  width: 250px;
+  float: right;
+}
+
+.form-group {
+  width: 400px;
+}
+
+.form-group > input {
+
+}
+
+.form {
+  margin: auto;
+}

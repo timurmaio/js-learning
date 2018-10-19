@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Резюме</title>
+    <link href="css/photon.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="window">
+        <div class="tab-group">
+            <div class="tab-item" onclick="window.location = 'index.html'">
+                Резюме
+            </div>
+            <div class="tab-item active" onclick="window.location = 'vacancies.html'">
+                Вакансии
+            </div>
+            <div class="tab-item" onclick="window.location = 'accept.html'">
+                Приём на работу
+            </div>
+        </div>
+
+        <div class="window-content">
+            <div class="form">
+                <div class="form-group">
+                    <label>Название</label>
+                    <input id="name" type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Сфера деятельности</label>
+                    <select id="sphere" class="form-control">
+                      <option>ИТ</option>
+                      <option>Менеджмент</option>
+                      <option>Маркетинг</option>
+                      <option>Транспорт</option>
+                      <option>Медицина</option>
+                      <option>Туризм</option>
+                      <option>Авто</option>
+                      <option>Спорт</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Опыт работы</label>
+                    <input id="experience" type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Город</label>
+                    <input id="city" type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Возраст</label>
+                    <input id="age" type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label>Зарплата</label>
+                    <input id="salary" type="text" class="form-control">
+                </div>
+
+                <div class="form-actions">
+                    <button class="btn btn-form btn-default" onclick="window.location = 'vacancies.html'">Отмена</button>
+                    <button id="addVacancyButton" class="btn btn-form btn-primary">Добавить</button>
+                </div>
+            </div>
+        </div>
+        <footer class="toolbar toolbar-footer">
+        </footer>
+
+        <script>
+            require('./new-vacancy.js')
+        </script>
+    </div>
+</body>
+
+</html>

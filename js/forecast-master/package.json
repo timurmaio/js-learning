@@ -1,0 +1,11 @@
+{
+  "name": "forecast",
+  "version": "0.0.1",
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "scripts": {
+    "lint": "standard",
+    "fix": "standard --fix"
+  }
+}

@@ -1,0 +1,289 @@
+/*---- MAIN ----*/
+
+main
+	height: 620px
+	width: 100%
+
+@media screen and (max-width: 480px)
+	main
+		background-size: 100% 620px
+
+.registration-greeting
+	font-size: 14px
+	text-align: center
+	padding-top: 56px
+	//font-style: normal
+	//font-variant: normal
+	//font-weight: 500
+	line-height: 26.4px
+	color: #2E4E5E
+
+.registration-wrapper
+	margin: auto
+	margin-top: 25px
+	&--action
+		margin: 51px 31px auto
+
+.registration-block
+	border-radius: 2px
+	margin: auto
+	width: 295px
+	height: 200px
+	background-color: white
+	border: 0.5px solid #E0E0E0
+	background-repeat: no-repeat
+	&--citizen
+		background-image: url('../images/citizen.png')
+		background-size: 295px 200px
+		background-position: -110px 0
+	&--organization
+		margin-top: 16px
+		background-image: url('../images/organization.png')
+		background-size: 295px 200px
+		background-position: -110px 0
+	&--action
+		width: 313px
+		height: inherit
+		position: relative
+
+
+.registration-block__main
+	background-color: white
+	height: 100%
+	width: 217px
+	margin-left: 26.44%
+
+.registration-block__main-header
+	font-size: 12px
+	font-weight: 500
+	margin-left: 23px
+	margin-top: -8px
+
+.registration-block__main-content
+	font-size: 10px
+	margin-left: 23px
+	margin-right: 16px
+	margin-top: 17px
+	line-height: 1.4
+
+.registration-block__main-btn-reg
+	display: block
+	font-size: 12px
+	font-weight: 500
+	text-transform: uppercase
+	color: #2E4E5E
+	margin: 18px 42px
+	
+.registration-block__icon
+	background: #FFFFFF
+	border: 0px solid rgba(0,0,0,0.12)
+	box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.12)
+	color: #2E4E5E
+	position: relative
+	width: 32px
+	height: 32px
+	border-radius: 50%
+	top: 16px
+	right: 16px
+	&--action
+		top: -24px
+		right: 0
+		margin: auto
+		width: 48px
+		height: 48px
+		border: 1px solid #2E4E5E
+
+
+.person-icon__item 
+	margin: 4px
+	&--action
+		margin: 12px
+
+.business-icon__item
+	margin: 4px
+
+
+.registration-block__input--text
+	margin: 16px 8px
+	border: 1px solid rgba(0,0,0,0.26)
+	border-radius: 2px
+	height: 40px
+
+.registration-block__input--password
+	width: 255px
+
+.registration-block__input--top
+	margin-top: 0
+
+.registration-block__select
+	margin: 16px 8px
+	border: 1px solid rgba(0,0,0,0.26)
+	border-radius: 2px
+	height: 40px
+
+.registration-input__item
+	width: 100%
+	height: 100%
+	box-sizing: border-box
+	font-size: 14px
+	padding-left: 16px
+	color: rgba(0,0,0,0.6)
+	&:focus
+		outline: none
+	+placeholder-color(rgba(0,0,0,0.6))
+	&--password
+		width: 255px
+	&--password
+		width: 85%
+
+.registration-select__item
+	width: 100%
+	height: 100%
+	box-sizing: border-box
+	font-size: 14px
+	padding-left: 13px
+	color: rgba(0,0,0,0.6)
+
+.registration-select__option
+	width: 100%
+
+.registration-block__date-select
+	height: 40px
+	margin: 16px 8px
+
+.date-select__left-item
+	width: 42px
+	height: 100%
+	border: 1px solid rgba(0,0,0,0.26)
+	border-radius: 2px
+	font-size: 14px
+	padding-left: 16px
+	color: rgba(0, 0, 0, 0.6)
+	&:focus
+		outline: none
+
+.date-select__middle-item
+	width: 42px
+	height: 100%
+	border: 1px solid rgba(0,0,0,0.26)
+	border-radius: 2px
+	font-size: 14px
+	padding-left: 16px
+	color: rgba(0, 0, 0, 0.6)
+	&:focus
+		outline: none
+
+.date-select__right-item
+	width: 80px
+	height: 100%
+	border: 1px solid rgba(0,0,0,0.26)
+	border-radius: 2px
+	font-size: 14px
+	padding-left: 16px
+	color: rgba(0, 0, 0, 0.6)
+	&:focus
+		outline: none
+
+.date-select__icon
+	display: inline-block
+	height: 100%
+
+.calendar-icon
+	position: relative
+	color: rgba(0,0,0,0.26)
+	top: 8px
+
+.registration-block__delimiter
+	width: 294px
+	height: 15px
+	margin: auto
+	text-align: center
+	border-bottom: 1px solid rgba(0,0,0,0.12)
+
+.registration-block__delimiter-text
+	margin: auto
+	width: 240px
+	font-size: 10px
+	color: rgba(0,0,0,0.54)
+	position: relative
+	top: 7px
+	z-index: 1
+	background-color: white
+
+.registration-block__social
+	width: 240px
+	height: 48px
+	margin: auto
+
+.b-social
+	margin-top: 28px
+	display: flex
+	justify-content: space-between
+
+.b-social__tw
+	background-image: url("../images/tw.svg")
+	background-repeat: no-repeat
+	width: 48px
+	height: 48px
+
+.b-social__fb
+	background-image: url("../images/fb.svg")
+	background-repeat: no-repeat
+	width: 48px
+	height: 48px
+
+.b-social__vk
+	background-image: url("../images/vk.svg")
+	background-repeat: no-repeat
+	width: 48px
+	height: 48px
+
+.b-social__ok
+	background-image: url("../images/ok.svg")
+	background-repeat: no-repeat
+	width: 48px
+	height: 48px
+
+.b-continue
+	height: 40px
+	margin: auto 8px
+	margin-top: 24px
+	margin-bottom: 16px
+	display: flex
+	justify-content: flex-end
+
+.b-continue__text
+	text-transform: uppercase
+	font-size: 14px
+	color: #2E4E5E
+
+.b-continue__icon
+	color: #2E4E5E
+	margin: 8px
+
+.b-continue__link
+	display: flex
+	align-items: center
+
+.registration-text-confirm
+	font-size: 10px
+	color: #2E4E5E
+	margin: 8px 40px 22px
+	text-align: center
+
+.registration-text-confirm--link
+	color: rgba(0,0,0,0.54)
+
+.password-help-icon
+	position: absolute
+	right: 15px
+	color: rgba(0,0,0,0.26)
+	&--top
+		top: 140px
+	&--bottom
+		bottom: 90px
+
+.password-eye-icon
+	position: relative
+	top: 8px
+	color: rgba(0,0,0,0.26)

@@ -1,0 +1,4 @@
+*.map
+*.codekit
+.sass-cache
+.idea

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Резюме</title>
+    <link href="css/photon.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="window">
+        <div class="tab-group">
+            <div class="tab-item active" onclick="window.location = 'index.html'">
+                Резюме
+            </div>
+            <div class="tab-item" onclick="window.location = 'vacancies.html'">
+                 Вакансии
+            </div>
+            <div class="tab-item" onclick="window.location = 'accept.html'">
+                Приём на работу
+            </div>
+        </div>
+
+        <header class="toolbar toolbar-header">
+            <div class="toolbar-actions">
+                <button id="selectFile" class="btn btn-large btn-positive">
+                    <span class="icon icon-upload icon-text" style="color: white;">
+                    </span>
+                    Импортировать резюме
+                    </button>
+                <input class="form-control" type="text" placeholder="Поиск по ключу">
+            </div>
+        </header>
+
+        <div class="window-content">
+            <table id="tableField" class="table-striped" id="tableField">
+                <thead>
+                    <tr>
+                        <th>
+                            Имя
+                        </th>
+                        <th>
+                            Фамилия
+                        </th>
+                        <th>
+                            Отчество
+                        </th>
+                        <th>
+                            Дата рождения
+                        </th>
+                        <th>
+                            Адрес
+                        </th>
+                        <th>
+                            Телефон
+                        </th>
+                        <th>
+                            e-mail
+                        </th>
+                        <th>
+                            Цель
+                        </th>
+                        <th>
+                            Опыт работы
+                        </th>
+                        <th>
+                            Образование
+                        </th>
+                        <th>
+                            Дополнительное образование
+                        </th>
+                        <th>
+                            Профессиональные навыки
+                        </th>
+                        <th>
+                            Личные качества
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <footer class="toolbar toolbar-footer">
+
+        </footer>
+
+        <script>
+            require('./renderer.js')
+        </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Резюме</title>
+    <link href="css/photon.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="window">
+        <div class="tab-group">
+            <div class="tab-item" onclick="window.location = 'index.html'">
+                Резюме
+            </div>
+            <div class="tab-item" onclick="window.location = 'vacancies.html'">
+                 Вакансии
+            </div>
+            <div class="tab-item active" onclick="window.location = 'accept.html'">
+                Приём на работу
+            </div>
+        </div>
+
+        <header class="toolbar toolbar-header">
+            <div class="toolbar-actions">
+                <button id="selectFile" class="btn btn-large btn-positive" onclick="window.location = 'new-accept.html'">
+                    <span class="icon icon-plus-circled icon-text" style="color: white;">
+                    </span>
+                    Принять на работу
+                    </button>
+            </div>
+        </header>
+
+        <div class="window-content">
+            <table id="tableField" class="table-striped" id="tableField">
+                <thead>
+                    <tr>
+                        <th>
+                            Вакансия
+                        </th>
+                        <th>
+                            Сфера деятельности
+                        </th>
+                        <th>
+                            Зарплата
+                        </th>
+                        <th>
+                            ФИО
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <footer class="toolbar toolbar-footer">
+
+        </footer>
+
+        <script>
+            require('./accept.js')
+        </script>
+    </div>
+</body>
+
+</html>

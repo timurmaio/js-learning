@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Резюме</title>
+    <link href="css/photon.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="window">
+        <div class="tab-group">
+            <div class="tab-item" onclick="window.location = 'index.html'">
+                Резюме
+            </div>
+            <div class="tab-item" onclick="window.location = 'vacancies.html'">
+                 Вакансии
+            </div>
+            <div class="tab-item" onclick="window.location = 'accept.html'">
+                Приём на работу
+            </div>
+        </div>
+
+        <div class="window-content">
+          <div class="form">
+              <div class="form-group">
+                  <label>Вакансия</label>
+                  <select id="vacancy" class="form-control">
+
+                  </select>
+              </div>
+
+              <div class="form-group">
+                  <label>Соискатель</label>
+                  <select id="employee" class="form-control">
+
+                  </select>
+              </div>
+
+              <div class="form-group">
+                  <label>Зарплата</label>
+                  <input id="salary" type="text" class="form-control">
+              </div>
+
+              <div class="form-actions">
+                  <button class="btn btn-form btn-default" onclick="window.location = 'accept.html'">Отмена</button>
+                  <button id="addAcceptButton" class="btn btn-form btn-primary">Добавить</button>
+              </div>
+          </div>
+        </div>
+        <footer class="toolbar toolbar-footer">
+
+        </footer>
+
+        <script>
+            require('./new-accept.js')
+        </script>
+    </div>
+</body>
+
+</html>
