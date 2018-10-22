@@ -1,0 +1,14 @@
+{
+  "name": "js-learning",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/timurmaio/js-learning.git",
+  "author": "Тимур Макаров <timurmaio@gmail.com>",
+  "license": "UNLICENCE",
+  "scripts": {
+    "start": ""
+  },
+  "sideEffects": [
+  "*.css" 
+  ]
+}
