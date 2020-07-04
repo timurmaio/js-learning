@@ -1,6 +1,0 @@
-{
-  "name": "restract",
-  "scripts": {
-   "start": "node app.js"
- }
-}
