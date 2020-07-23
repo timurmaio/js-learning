@@ -10,7 +10,7 @@
     "electron": "^1.4.6",
     "pg": "^6.1.0",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^3.25.1",
+    "sequelize": "^5.15.1",
     "textract": "^2.0.0"
   }
 }
